@@ -1,0 +1,61 @@
+{
+"expo": {
+"android": {
+"adaptiveIcon": {
+"backgroundColor": "rgb(255, 255, 255)",
+"foregroundImage": "./_111/_112.png"
+},
+"blockedPermissions": [
+],
+"package": "COM.I9503031124034.WEB_REACT_NATIVE",
+"permissions": [],
+"versionCode": 1
+},
+"experiments": {
+"typedRoutes": true
+},
+"extra": {
+"eas": {
+"projectId": ""
+},
+"router": {
+"origin": false
+}
+},
+"icon": "./_111/_112.png",
+"ios": {
+"supportsTablet": false
+},
+"name": "WEB_REACT_NATIVE",
+"newArchEnabled": true,
+"orientation": "portrait",
+"owner": "I9503031124034-3",
+"plugins": [
+"expo-router",
+"expo-secure-store",
+[
+"expo-sqlite",
+{
+"enableFTS": true,
+"useSQLCipher": true,
+"android": {
+"enableFTS": false,
+"useSQLCipher": false
+},
+"ios": {
+"customBuildFlags": ["-DSQLITE_ENABLE_DBSTAT_VTAB=1 -DSQLITE_ENABLE_SNAPSHOT=1"]
+}
+}
+]
+],
+"scheme": "WEB_REACT_NATIVE",
+"slug": "WEB_REACT_NATIVE",
+"splash": {
+"backgroundColor": "rgb(255, 255, 255)",
+"image": "./_111/_112.png",
+"resizeMode": "contain"
+},
+"userInterfaceStyle": "automatic",
+"version": "1"
+}
+}

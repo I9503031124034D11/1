@@ -1,0 +1,61 @@
+{
+"expo": {
+"android": {
+"adaptiveIcon": {
+"backgroundColor": "rgb(255, 255, 255)",
+"foregroundImage": "./_98/_99.png"
+},
+"blockedPermissions": [
+],
+"package": "COM.I9503031124034.CALCULATIABLE_SELECT",
+"permissions": [],
+"versionCode": 1
+},
+"experiments": {
+"typedRoutes": true
+},
+"extra": {
+"eas": {
+"projectId": ""
+},
+"router": {
+"origin": false
+}
+},
+"icon": "./_98/_99.png",
+"ios": {
+"supportsTablet": false
+},
+"name": "CALCULATIABLE_SELECT",
+"newArchEnabled": true,
+"orientation": "portrait",
+"owner": "I9503031124034-1",
+"plugins": [
+"expo-router",
+"expo-secure-store",
+[
+"expo-sqlite",
+{
+"enableFTS": true,
+"useSQLCipher": true,
+"android": {
+"enableFTS": false,
+"useSQLCipher": false
+},
+"ios": {
+"customBuildFlags": ["-DSQLITE_ENABLE_DBSTAT_VTAB=1 -DSQLITE_ENABLE_SNAPSHOT=1"]
+}
+}
+]
+],
+"scheme": "CALCULATIABLE_SELECT",
+"slug": "CALCULATIABLE_SELECT",
+"splash": {
+"backgroundColor": "rgb(255, 255, 255)",
+"image": "./_98/_99.png",
+"resizeMode": "contain"
+},
+"userInterfaceStyle": "automatic",
+"version": "1"
+}
+}

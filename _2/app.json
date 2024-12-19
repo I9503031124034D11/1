@@ -1,0 +1,61 @@
+{
+"expo": {
+"android": {
+"adaptiveIcon": {
+"backgroundColor": "rgb(255, 255, 255)",
+"foregroundImage": "./_46/_73.png"
+},
+"blockedPermissions": [
+],
+"package": "COM.I9503031124034.VECTOR_OR_PEN",
+"permissions": [],
+"versionCode": 1
+},
+"experiments": {
+"typedRoutes": true
+},
+"extra": {
+"eas": {
+"projectId": ""
+},
+"router": {
+"origin": false
+}
+},
+"icon": "./_46/_73.png",
+"ios": {
+"supportsTablet": false
+},
+"name": "VECTOR_OR_PEN",
+"newArchEnabled": true,
+"orientation": "portrait",
+"owner": "I9503031124034-2",
+"plugins": [
+"expo-router",
+"expo-secure-store",
+[
+"expo-sqlite",
+{
+"enableFTS": true,
+"useSQLCipher": true,
+"android": {
+"enableFTS": false,
+"useSQLCipher": false
+},
+"ios": {
+"customBuildFlags": ["-DSQLITE_ENABLE_DBSTAT_VTAB=1 -DSQLITE_ENABLE_SNAPSHOT=1"]
+}
+}
+]
+],
+"scheme": "VECTOR_OR_PEN",
+"slug": "VECTOR_OR_PEN",
+"splash": {
+"backgroundColor": "rgb(255, 255, 255)",
+"image": "./_46/_73.png",
+"resizeMode": "contain"
+},
+"userInterfaceStyle": "automatic",
+"version": "1"
+}
+}

@@ -1,0 +1,175 @@
+
+                _141 DESC REGEX VALUE (?<!\'[^\'\n]*)\/\/[^\n]*
+                _141 DESC REGEX VALUE (?<!\"[^\"\n]*)\/\/[^\n]*
+                _141 DESC REGEX VALUE (?<!\`[^\`]*)\/\/[^\n]*
+                _141 DESC REGEX VALUE \/\*(\*(?!\/)|\n|[^*])*\*\/
+                _145 _146 EDIT JSON
+                _145 _147 FLAT JSON
+                _145 _148 SHOW _145 _147 RESULT
+                _145 _159 PARSE LINE
+                _145 _160 SHOW _145 _159 RESULT
+                _145 _161 LINK _160
+                _145 KIND APP
+                _150 _149 CREATE SVG
+                _150 _151 COLLECT SVG _153
+                _150 _152 ANIMATE _153
+                _150 KIND APP
+                _154 _155 GENERATE PIN
+                _154 KIND TEMP APP
+                _162 _163 ISSUE KEY
+                _162 _164 GET KEY
+                _162 _165 WRITE CONTENT
+                _162 _166 DEFINE _163 TO _165
+                _162 _167 DEFINE _164 TO _165
+                _162 KIND APP
+                _168 _169 DATE WITH MAP
+                _168 _170 DATE WITH CONTENT
+                _168 KIND APP
+                _171 _172 SHOW DIF TIME
+                _171 KIND APP
+                _173 _116 CREATE QR CODE
+                _173 _117 VIEW PLAN
+                _173 _118 SCAN QR CODE
+                _173 _119 DEFINE _118 TO _117
+                _173 _120 CREATE PLAN
+                _173 KIND APP
+                _174 _175 HIDE FILE
+                _174 _176 HIGHLIGHT LINE
+                _174 KIND VISUAL STUDIO CODE EXTENSION
+                _180 _181 PARSE JS
+                _180 _182 DEFINE CREATE PATTERN WITH _180 _181 RESULT
+                _180 KIND VISUAL STUDIO CODE EXTENSION
+                _183 _185 AUTO INCREMENT
+                _183 _186 DEFINE CREATE ITEM WITH _183 _185 RESULT
+                _183 KIND APP
+                _189 _179 REQUEST _243 SEARCH TAG
+                _189 _78 REQUEST _243 GET ITEMS
+                _189 _79 REQUEST _243 ADD IMAGE
+                _189 _80 REQUEST _243 ADD TAG
+                _189 KIND APP
+                _190 _191 COMPARE STR NUMBER
+                _190 _191 SORT LINE ASCEND
+                _190 KIND VISUAL STUDIO CODE EXTENSION
+                _192 _193 FLAT JSON
+                _192 _212 EDIT JSON
+                _192 _213 VIEW _192 _193 RESULT
+                _192 KIND VISUAL STUDIO CODE EXTENSION
+                _194 DESC CREATE NEXT CODE
+                _194 DESC GET NEXT CODE
+                _194 KIND VISUAL STUDIO CODE EXTENSION
+                _195 DESC CREATE BUTTON
+                _195 DESC ITEMS COPY
+                _195 KIND VISUAL STUDIO CODE EXTENSION
+                _197 DESC CALENDAR ITEMS DATE
+                _197 DESC CALENDAR ITEMS YEAR
+                _197 DESC WRITE DATE
+                _197 KIND APP
+                _197 KIND DIARY
+                _198 DESC CALENDAR SHOW TIME HOUR
+                _198 DESC COUNT TIME HOUR
+                _198 DESC MATCH
+                _198 KIND ALRAM
+                _198 KIND APP
+                _199 DESC PLUS
+                _199 DESC SELECT DIGITS
+                _199 KIND APP
+                _199 KIND APP
+                _199 KIND CALCULATE
+                _200 DESC SCROLL X AT NOW
+                _200 DESC VERTICAL DAY
+                _200 KIND APP
+                _200 KIND CALENDAR
+                _201 _117 VIEW PLAN
+                _201 _118 SCAN QR CODE
+                _201 _119 DEFINE _201 _118 TO _201 _117
+                _201 DESC _116 CREATE QR CODE
+                _201 DESC _120 CREATE PLAN
+                _201 DESC KIND APP
+                _201 DESC KIND QR CODE
+                _202 DESC MATCH DESC CODE
+                _202 DESC MATCH DESC PART
+                _203 DESC ADOP
+                _203 DESC RAISE
+                _204 DESC FILE PLACE HOLDER
+                _205 DESC JAVASCRIPT VARIABLE DOUBLE AMPERSAND BUTTON
+                _206 DESC SQLITE DELETE OBJECTSS
+                _207 DESC SAVE LOCAL
+                _207 DESC WARN SERVER DATABASE
+                _208 DESC WARN GENERNATABLE FONT
+                _209 DESC PRICE UNIT
+                _209 DESC QUESTION MARK
+                _210 DESC SHARE OTHER APP
+                _211 DESC DELETE LOCAL SOURCE
+                _211 DESC MAINTAIN SERVER
+                _211 DESC UPLOAD SOURCE
+                _214 DESC WORDS TO NEXT
+                _215 DESC LINE DIRECTION DOWN
+                _215 DESC LINE DIRECTION UP WARN
+                _216 DESC CODE NEED NUMBER
+                _216 DESC COUNT NEED NUMBER
+                _217 DESC ING WARN UPLOAD
+                _218 DESC EXCLAMATION MARK DESC REVERSE
+                _218 DESC EXCLAMATION MARK VALUE !
+                _220 _222 UPLOAD WORD
+                _220 _223 DOWNLOAD VOCABURARY
+                _220 KIND CLIENT
+                _221 _224 DEFINE BIND _220 _222 RESULT
+                _221 KIND SERVER
+                _225 DESC ALRAM MATCH NEXT MILI SECOND
+                _226 DESC AND LIKE AMPERSAND
+                _226 DESC AND WITH OBJECTSS
+                _227 DESC BROWSER SEARCH IMAGE
+                _228 DESC DIRECTION DOWN
+                _229 DESC EDITABLE EXTENSION JSON
+                _230 DESC EDITABLE EXTENSION TXT
+                _231 DESC DOWN VIEW SHOW
+                _231 DESC UP VIEW TRASH
+                _232 DESC ITEMS
+                _233 DESC JSON EDITOR CONVERT PROPERTY
+                _234 DESC MAX PERSONNEL
+                _235 DESC MILLION MEAN THOUSAND MULTIPLE THOUSAND
+                _236 DESC REMOVE EMPTY FILE
+                _237 DESC UNCHECK MEAN REMOVE
+                _238 DESC VECT MERGE
+                _239 DESC PARAM LENGTH DIFF LOOP RESULT LENGTH
+                _240 DESC FIEL EXTENSION D.TS
+                _240 DESC SHOW DECLARES
+                _240 DESC TYPESCRIPT
+                _240 KIND VISUAL STUDIO CODE EXTENSION
+                _241 DESC UPLOAD THEN EXIT
+                _242 DESC INCUBATOR
+                _243 KIND SERVER
+                _244 DESC LINK TEXT
+		_244 DESC INFORMATION
+		_246 DESC LINK ICON
+		_246 DESC UTIL
+		_246 DESC ROUTE
+                TEMPLATE BEGIN
+                INITIAL POPULATION: 8
+                AGE BIRTH: 41
+                AGE DEATH: 122
+                POPULATION EXTINCTION PERIOD: 280
+                START    POPULATION    DISTRIBUTION
+                1        8             (AGE 1: 8)
+                41       12            (AGE 1: 4, AGE 41: 8)
+                81       14            (AGE 1: 2, AGE 41: 4, AGE 81: 8)
+                121      15            (AGE 1: 1, AGE 41: 2, AGE 81: 4, AGE 121: 8)
+                161      7             (AGE 1: 0, AGE 41: 1, AGE 81: 2, AGE 121: 4)
+                201      3             (AGE 1: 0, AGE 41: 0, AGE 81: 1, AGE 121: 2)
+                241      1             (AGE 1: 0, AGE 41: 0, AGE 81: 0, AGE 121: 1)
+                281      0             (AGE 1: 0, AGE 41: 0, AGE 81: 0, AGE 121: 0)
+                INITIAL POPULATION: 16
+                AGE BIRTH: 41
+                AGE DEATH: 122
+                POPULATION EXTINCTION PERIODIOD: 320
+                START    POPULATION    DISTRIBUTION
+                301      16            (AGE 1: 16)
+                341      24            (AGE 1: 8, AGE 41: 16)
+                381      28            (AGE 1: 4, AGE 41: 8, AGE 81: 16)
+                421      3             (AGE 1: 2, AGE 41: 4, AGE 81: 8, AGE 121: 16)
+                461      15            (AGE 1: 1, AGE 41: 2, AGE 81: 4, AGE 121: 8)
+                501      7             (AGE 1: 0, AGE 41: 1, AGE 81: 2, AGE 121: 4)
+                541      3             (AGE 1: 0, AGE 41: 0, AGE 81: 1, AGE 121: 2)
+                581      1             (AGE 1: 0, AGE 41: 0, AGE 81: 0, AGE 121: 1)
+                621      0             (AGE 1: 0, AGE 41: 0, AGE 81: 0, AGE 121: 0)
+                TEMPLATE END
